@@ -70,27 +70,39 @@ student_data_df.loc[
     (student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"),"math_score"] = np.NaN
 ```
 
-## Results based on NEW (Thomas 9th grade scores removed) vs OLD analyses (All students)
+## Results based on NEW analyses
+### (Thomas 9th grade percent passing results replaced by 10-12th grade results) 
+## vs OLD analyses 
+### (All students)
 
-- District Summary Changes
+` `  
+
+- ## District Summary Changes
     #### There are 461 9th graders at Thomas High school. This represents only 1.2% (461/39,170) of the school district high school students. You would not expect a large change in the district level results.
 
-Old Math score |New Math score |Old Reading score |New Reading score
----|---|---|---
-79.0|78.9|81.9|81.9
+    #### New
+    ![District Summary new](./Resources/DistrictSummaryNew.png)
 
-- School Summary Changes
+    #### Old
+    ![District Summary old](./Resources/DistrictSummaryOld.png)
 
-Old Math score |New Math score |Old Reading score |New Reading score
----|---|---|---
-83.4|83.4|83.8|83.9
+- ## School Summary Changes
+    #### There was a very small change in the Average reading scores for Thomas High School. The new average reading score went from 83.8 to 83.9. All other metrics remained the same when rounded to one or zero decimal places.
 
-- Thomas High School results vs other schools
+    #### New
+    ![Thomas new](./Resources/ThomasNew.png)
+
+    #### Old
+    ![Thomas old](./Resources/ThomasOld.png)
+
+- ## Thomas High School results vs other schools
     
     ####
-     Thomas High School remains the 4th top school in the overall passing ranks.
+    #### Thomas High School remained the 4th top school in the overall passing ranks.
 
-- Math and Reading Changes by grade
+- ## Math and Reading Changes by grade
+#### The only changes in the grade levels average scores was in the new analysis where all of the Thomas 9th grade scores are missing.
+` `  
 #### New grade level results for MATH. Thomas ninth graders are all missing in the new analyses.
 ![Math Grade new](./Resources/MathGradeNew.png) 
 
@@ -103,14 +115,23 @@ Old Math score |New Math score |Old Reading score |New Reading score
 #### Old grade level results for READING. All other schools and grade level scores remain the same since no other data were changed for other schools or grades.
 ![Reading Grade old](./Resources/ReadingGradeOld.png)
 
-- Math and Reading Changes by school spending
+- ## Math and Reading Changes by school spending
+#### Thomas High School is in the $630-644 per capita spending category.
+#### New
 ![Spending new](./Resources/SpendingNew.png)
+#### Old
 ![Spending old](./Resources/SpendingOld.png)
 
-- Math and Reading Changes by school size
-[Size new](./Resources/SizeNew.png)
+- ## Math and Reading Changes by school size
+#### Thomas High School is classified as a Medium sized school.
+#### New
+![Size new](./Resources/SizeNew.png)
+#### Old
 ![Size old](./Resources/SizeOld.png)
 
-- Math and Reading Changes by school type
-[Type new](./Resources/TypeNew.png)
+- ## Math and Reading Changes by school type
+#### Thomas High School is a Charter school.
+#### New
+![Type new](./Resources/TypeNew.png)
+#### Old
 ![Type old](./Resources/TypeOld.png)
