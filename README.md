@@ -68,6 +68,10 @@ student_data_df.loc[
     (student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"),"math_score"] = np.NaN
 ```
 
-## Results based on new (Thomas 9th grade scores removed) vs old analyses (All students)
+## Results based on NEW (Thomas 9th grade scores removed) vs OLD analyses (All students)
 
 - District Summary Changes
+
+|Old Math|New Math|Old Reading|New Reading|
+|75|74.8|99|100|
+
