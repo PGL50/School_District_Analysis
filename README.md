@@ -72,6 +72,25 @@ student_data_df.loc[
 
 - District Summary Changes
 
-|Old Math|New Math|Old Reading|New Reading|
-|75|74.8|99|100|
+Old Math score |New Math score |Old Reading score |New Reading score
+---|---|---|---
+79.0|78.9|81.9|81.9
 
+- School Summary Changes
+
+Old Math score |New Math score |Old Reading score |New Reading score
+---|---|---|---
+83.4|83.4|83.8|83.9
+
+- Thomas High School results vs other schools
+    
+    ####
+     No change in rankings
+
+- Math and Reading Changes by grade
+
+- Math and Reading Changes by school spending
+
+- Math and Reading Changes by school size
+
+- Math and Reading Changes by school type
