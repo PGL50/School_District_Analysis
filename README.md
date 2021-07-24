@@ -2,7 +2,7 @@
 
 ## School District Analysis Report
 ` `  
-### The purpose of this report is to address concerns about reading and math scores within the district at Thomas High School. The scores of the ninth graders are of concern. The analyses in the report will be based on a comparison of the Module 4 full district results compared to an analysis run on a subset of the data with 9th grade scores removed.
+### The purpose of this report is to address concerns about reading and math scores within the district at Thomas High School. The scores of the ninth graders are of concern. The analyses in the report will be based on a comparison of the Module 4 full district results compared to an analysis run on an updated data set with the average.
 ` `  
 ## School District Results - updated
 
@@ -19,9 +19,11 @@
 ![Bottom new](./Resources/BottomSchoolsNew.png)
 
 ### Average math scores by grade level
+#### Ninth graders replaces to NaN
 ![Math Grade new](./Resources/MathGradeNew.png)
 
 ### Average reading scores by grade level
+#### Ninth graders replaces to NaN
 ![Read Grade new](./Resources/ReadingGradeNew.png)
 
 ### Scores by school spending per student
@@ -71,6 +73,7 @@ student_data_df.loc[
 ## Results based on NEW (Thomas 9th grade scores removed) vs OLD analyses (All students)
 
 - District Summary Changes
+    #### There are 461 9th graders at Thomas High school. This represents only 1.2% (461/39,170) of the school district high school students
 
 Old Math score |New Math score |Old Reading score |New Reading score
 ---|---|---|---
@@ -85,9 +88,14 @@ Old Math score |New Math score |Old Reading score |New Reading score
 - Thomas High School results vs other schools
     
     ####
-     No change in rankings
+     Thomas High School remains the 4th top school in the overall passing ranks.
 
 - Math and Reading Changes by grade
+#### New grade level results. Thomas ninth graders are all missing in the new analyses.
+![Math Grade new](./Resources/MathGradeNew.png) 
+
+#### Old grade level results. All other schools and grade level scores remain the same since no other data were changed for other schools or grades.
+![Math Grade old](./Resources/MathGradeOld.png)
 
 - Math and Reading Changes by school spending
 
