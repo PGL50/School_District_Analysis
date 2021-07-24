@@ -73,7 +73,7 @@ student_data_df.loc[
 ## Results based on NEW (Thomas 9th grade scores removed) vs OLD analyses (All students)
 
 - District Summary Changes
-    #### There are 461 9th graders at Thomas High school. This represents only 1.2% (461/39,170) of the school district high school students
+    #### There are 461 9th graders at Thomas High school. This represents only 1.2% (461/39,170) of the school district high school students. You would not expect a large change in the district level results.
 
 Old Math score |New Math score |Old Reading score |New Reading score
 ---|---|---|---
@@ -91,14 +91,26 @@ Old Math score |New Math score |Old Reading score |New Reading score
      Thomas High School remains the 4th top school in the overall passing ranks.
 
 - Math and Reading Changes by grade
-#### New grade level results. Thomas ninth graders are all missing in the new analyses.
+#### New grade level results for MATH. Thomas ninth graders are all missing in the new analyses.
 ![Math Grade new](./Resources/MathGradeNew.png) 
 
-#### Old grade level results. All other schools and grade level scores remain the same since no other data were changed for other schools or grades.
+#### Old grade level results for MATH. All other schools and grade level scores remain the same since no other data were changed for other schools or grades.
 ![Math Grade old](./Resources/MathGradeOld.png)
 
+#### New grade level results for READING. Thomas ninth graders are all missing in the new analyses.
+![Reading Grade new](./Resources/ReadingGradeNew.png) 
+
+#### Old grade level results for READING. All other schools and grade level scores remain the same since no other data were changed for other schools or grades.
+![Reading Grade old](./Resources/ReadingGradeOld.png)
+
 - Math and Reading Changes by school spending
+![Spending new](./Resources/SpendingNew.png)
+![Spending old](./Resources/SpendingOld.png)
 
 - Math and Reading Changes by school size
+[Size new](./Resources/SizeNew.png)
+![Size old](./Resources/SizeOld.png)
 
 - Math and Reading Changes by school type
+[Type new](./Resources/TypeNew.png)
+![Type old](./Resources/TypeOld.png)
