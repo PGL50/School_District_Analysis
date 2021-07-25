@@ -10,7 +10,7 @@
 ![district new](./Resources/DistrictSummaryNew.png)
 
 ### School Level Summary DataFrame
-![school new](./Resources/SchoolSummaryNew.png)
+![school new](./Resources/AllSchoolSummary.png)
 
 ### Top 5 Performing Schools
 ![Top new](./Resources/TopSchoolsNew.png)
@@ -169,7 +169,7 @@ student_data_df.loc[
 
 1. The district scores by school size for the Medium sized like Thomas showed no evidence of artificially raised scored as well. The only metric that changed was the percent passing overall which went DOWN (91% to 85%). Larger schools fare worse than small school for all metrics. This result seems to make sense with student:teacher ratio issues. 
 
-1. The district scores by school type for Charter Schoold like Thomas showed no evidence of artificially raised scored as well. The only metric that changed was the percent passing overall which went DOWN slightly (90% to 87%). Charter schools score much better than the District schools. 
+1. The district scores by school type for Charter Schoold like Thomas showed no evidence of artificially raised scored as well. The only metric that changed was the percent passing overall which went DOWN slightly (90% to 87%). Charter schools scored much better than the District schools. 
 #### A better way to determine altered scores would be to look at classroom level scores at Thomas High School. Or look at scores over time to see if there is a blip in the scores over time. 
 
 
